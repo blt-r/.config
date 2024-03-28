@@ -1,0 +1,10 @@
+[include]
+ 	path = ./user
+[init]
+	defaultBranch = main
+[alias]
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[push]
+	followTags = true
+[status]
+	showUntrackedFiles = all

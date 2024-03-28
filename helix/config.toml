@@ -1,0 +1,14 @@
+theme = 'catppuccin_mocha'
+
+[editor]
+line-number = 'relative'
+cursor-shape.insert = 'bar'
+cursorline = true
+bufferline = 'always'
+color-modes = true
+soft-wrap.enable = true
+indent-guides.render = true
+indent-guides.character = "▏" # U+258F Left One Eighth Block
+
+[keys.normal]
+esc = ['collapse_selection', 'keep_primary_selection']
