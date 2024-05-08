@@ -1,0 +1,7 @@
+[language-server.vscode-json-language-server]
+command = "vscode-json-languageserver"
+
+[[language]]
+name = "fish"
+auto-format = false
+
