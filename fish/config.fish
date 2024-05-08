@@ -41,5 +41,7 @@ set fish_cursor_replace_one underscore blink
 set fish_cursor_visual      block
 
 # env
-fish_add_path -g ~/bin ~/.local/bin ~/.cargo/bin
 set -gx EDITOR hx
+set -gx PNPM_HOME ~/.local/share/pnpm
+
+fish_add_path -g ~/bin ~/.local/bin ~/.cargo/bin $PNPM_HOME
