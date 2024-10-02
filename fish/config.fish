@@ -1,5 +1,5 @@
 function random_emoji
-    set emojis '-_-' '¯\_(ツ)_/¯' 'O_o' '⸜( ˃ᵕ˂)⸝♡' '\(^ᵕ^)/' '•_•' '>﹏<' 'ಠ_ಠ' '>_<' '\(ᵔᵕᵔ)/' ':>'
+    set emojis '-_-' '¯\_(ツ)_/¯' 'O_o' '⸜( ˃ᵕ˂)⸝♡' '\(^ᵕ^)/' '•_•' '>﹏<' 'ಠ_ಠ' '>_<' '\(ᵔᵕᵔ)/' ':>' '^.^' ':3'
     set colors 'red' 'green' 'yellow' 'blue' 'magenta' 'cyan'
 
     set_color (random choice $colors)
