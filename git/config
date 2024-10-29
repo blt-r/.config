@@ -5,7 +5,18 @@
 [alias]
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 	undo = reset --soft HEAD^
+	dft = difftool
 [push]
 	followTags = true
 [status]
 	showUntrackedFiles = all
+
+# use difftastic as a difftool
+[diff]
+	tool = difftastic
+[difftool]
+	prompt = false
+[difftool "difftastic"]
+	cmd = difft "$LOCAL" "$REMOTE"
+[pager]
+	difftool = true
