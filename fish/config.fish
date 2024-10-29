@@ -43,5 +43,12 @@ set fish_cursor_visual      block
 # env
 set -gx EDITOR hx
 set -gx PNPM_HOME ~/.local/share/pnpm
+set -gx DENO_INSTALL ~/.deno
 
-fish_add_path -g ~/bin ~/.local/bin ~/.cargo/bin $PNPM_HOME
+fish_add_path -g \
+    ~/bin \
+    ~/.local/bin \
+    ~/.cargo/bin \
+    $PNPM_HOME \
+    $DENO_INSTALL/bin \
+
