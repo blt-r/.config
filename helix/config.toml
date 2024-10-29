@@ -1,7 +1,7 @@
 theme = 'catppuccin_mocha'
 
 [editor]
-line-number = 'relative'
+line-number = 'absolute'
 cursor-shape.insert = 'bar'
 cursorline = true
 bufferline = 'multiple'
