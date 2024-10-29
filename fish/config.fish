@@ -23,7 +23,7 @@ alias :q 'exit'
 
 
 # hydro config
-set -g hydro_symbol_prompt ❯
+set -g hydro_symbol_prompt '❯'
 test "$TERM" = linux && set -g hydro_symbol_prompt '>'
 
 set -g hydro_color_pwd green
